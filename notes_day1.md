@@ -58,3 +58,14 @@
 * it only works for processes that uses some seconds of cpu time
 * Manually assign numa architecture to a kvm guest and run automatic
   balancing will work and help the host to figure out what should be optimal
+
+
+# Network Queuing is all wet
+
+* Bufferbloat!
+* Netalyzr
+* Demonstration: "This is a ten-gig-bottle"
+* Use Fair queu or codel
+* sysctl -w sys.net.core.default_qdisc=fq_codel
+* Bad part: Wireless! (buffering firmware, ...)
+* "Network have the same problem but hey probably cant drop packets"
