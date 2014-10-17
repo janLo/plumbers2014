@@ -13,7 +13,7 @@
 
 * Unlocked full potential of the driver
 * Implemented bulking in qdisc layer
-* Pktgen 15.8Mpps on a single core (10G wirespeed)
+* Pktgen 14.8Mpps on a single core (10G wirespeed)
 * skb have xmit_more indicator
   * defer (expensive) writes to hw
 * Hard part: bulk without add latency
