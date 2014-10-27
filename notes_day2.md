@@ -1,9 +1,3 @@
-# File and Storage Systems Microconference
-
-* Notes at https://etherpad.fr/p/LPC2014_Storage
-* Grub2 can now boot from btrfs snapshots
-
-
 # Linux packet processing performance improvements
 
 * Unlocked full potential of the driver
